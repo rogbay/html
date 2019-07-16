@@ -1,0 +1,263 @@
+/*the screen for 480*/
+@media screen and (max-width: 480px) {
+
+}
+/*the screen for 767*/
+@media screen and (max-width: 767.9px) {
+	.menu_head a br,
+	.nav_menu br,
+	nav,
+	.submenu {
+		bottom: 0px;
+		display: none;
+		left: 0px;
+		overflow: auto;
+		position: fixed;
+		right: 0px;
+		top: 0px;
+		z-index: 999999;
+		background: #352c26;
+	}
+	.submenu_info {
+		display: none !important;
+	}
+	.navsp_top {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding: 20px 15px 18px 15px;
+		background: #4c3f36;
+	}
+	.navclose {
+		text-transform: uppercase;
+		font-size: 1.4rem;
+		cursor: pointer;
+	}
+	.navclose .fas {
+		padding-right: 5px;
+	}
+	.navsp_top .hd_account {
+		display: block;
+		font-size: 1.4rem;
+		padding-right: 30px;
+	}
+	.menubar .fas {
+		font-size: 3rem;
+		color: #fef3e3;
+	}
+	.nav_menu {
+		flex-wrap: wrap;
+		padding: 0px;
+	}
+	.nav_menu li {
+		padding-right: 0px;
+		text-align: left;
+		width: 100%;
+	}
+	.nav_menu>li>a::after {
+		border-right: 1.5px solid #fff;
+		border-top: 1.5px solid #fff;
+		content: "";
+		height: 8px;
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-50%) rotate(45deg);
+		width: 8px;
+	}
+	.nav_menu li a {
+		padding: 14px 15px 13px 15px;
+		text-align: left;
+		text-transform: uppercase;
+		color: #fff !important;
+	}
+	.nav_menu>li>a {
+		font-weight: bold;
+		padding-right: 20px;
+		position: relative;
+	}
+	.nav_menu li a,
+	.submenu>li:nth-last-child(2) .submenu_list li:last-child a {
+		border-bottom: 1px solid #4c3f36;
+	}
+	.submenu {
+		display: none;
+		flex-wrap: wrap;
+		top: 80px;
+		z-index: 99999;
+	}
+	.menu_head a {
+		background: #0e7575;
+		font-size: 1.6rem;
+		font-weight: normal;
+		padding: 16px;
+	}
+	.submenu_list li a {
+		font-size: 1.4rem;
+		text-transform: initial;
+	}
+	.showmenu {
+		display: flex !important;
+	}
+	.menu_child {
+		background: #a25926;
+		text-transform: uppercase;
+		padding: 12px 15px;
+	}
+	.menu_child_back {
+		font-size: 1.4rem;
+		padding-left: 10px;
+		position: relative;
+		cursor: pointer;
+	}
+	.menu_child_back::before {
+		border-left: 1.5px solid #fff;
+		border-top: 1.5px solid #fff;
+		content: "";
+		height: 8px;
+		left: 0px;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%) rotate(-45deg);
+		width: 8px;
+	}
+	.menu_child_lbl {
+		font-size: 1.6rem;
+		font-weight: bold;
+	}
+	nav .hd_phone {
+		padding-bottom: 14px;
+		padding-top: 14px;
+		position: unset;
+	}
+	.navsp_top .hd_center_box {
+		width: auto;
+	}
+	.navsp_top .hd_account {
+		padding-right: 0px;
+	}
+
+}
+/*the screen for 768*/
+@media screen and (min-width: 768px) {
+	nav {
+		display: block !important;
+	}
+	.menubar {
+		display: none;
+	}
+	.nav_menu>li:last-child>a {
+		background: #6e4930;
+	}
+	.submenu {
+		background: #0e7575;
+		display: none;
+		position: absolute;
+		top: 100%;
+		transition: all .3s ease-in;
+	}
+	.nav_menu>li:hover .submenu {
+		display: flex;
+	}
+	.submenu_info_style .submenu_info {
+		left: -60px;
+		right: -60px;
+		max-width: none;
+	}
+	.submenu_info_style .submenu_info::before {
+		left: 25%;
+	}
+	.submenu_list>li>a {
+		position: relative;
+	}
+	.submenu_list>li>a:hover::after {
+		background: #fff;
+		bottom: 0px;
+		content: "";
+		left: -5px;
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		z-index: -1;
+	}
+	.submenu_list>li>a:hover {
+		color: #352c26 !important;
+	}
+	.submenu>li {
+		padding-left: 15px;
+	}
+	.submenu>li:first-child {
+		padding-left: 0px;
+	}
+}
+/*the screen for 1024*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.submenu {
+		padding: 0px 1.5em 15px 1.5em;
+	}
+	.submenu>li {
+		width: calc(685px / 4);
+	}
+	.menu_head a {
+		font-size: 1.6rem;
+		padding-bottom: 5px;
+	}
+	.submenu .submenu_info {
+		padding: 20px 15px;
+	}
+	.position_center {
+		left: -200%;
+	}
+	.navsphiden {
+		display: none;
+	}
+
+}
+@media screen and (min-width: 768px) and (max-width: 849.9px) {
+	.nav_menu>li>a {
+		font-size: 1.25rem;
+		padding: 8px 1em;
+	}
+}
+@media screen and (min-width: 850px) and (max-width: 1024px) {
+	nav .nav_menu>li>a {
+		font-size: 1.4rem;
+		padding: 8px 1em;
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1120px) {
+	.nav_menu>li>a {
+		padding: 8px 1.65em;
+	}
+	.submenu {
+		padding: 4px 1.5em 28px 1.5em;
+	}
+	.submenu>li {
+		min-width: 200px;
+		width: 200px;
+	}
+	.position_center {
+		left: -150%;
+	}
+	.navpchiden {
+		display: none;
+	}
+}
+@media screen and (min-width: 1120px) {
+	.nav_menu>li>a {
+		padding: 8px 2.18em;
+	}
+	.submenu {
+		padding: 4px 1.5em 28px 1.5em;
+	}
+	.submenu>li {
+		min-width: 220px;
+		width: 220px;
+	}
+	.position_center {
+		left: -150%;
+	}
+	.navpchiden {
+		display: none;
+	}
+}

@@ -1,0 +1,93 @@
+footer {
+	background: url(../image/common/bg-footer.png) no-repeat top right #352c26;
+	color: #fff;
+}
+footer a {
+	color: #fff;
+}
+.newletter_wrap {
+	align-items: center;
+	max-width: 975px;
+}
+.newletter {
+	background: #4c3f36;
+	padding: 28px 0px;
+}
+.newletter_ttl {
+	color: #f19048;
+}
+.newletter_field input {
+	border: none;
+	height: 37px;
+	outline: none;
+}
+.newletter_field input[type="text"] {
+	font-size: 1.6rem;
+	width: 300px;
+	display: block;
+	padding: 5px 14px;
+}
+.newletter_field input[type="submit"] {
+	background: #a25926;
+	color: #fff;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	padding: 5px 25px;
+}
+.newletter_field input[type="submit"]:hover {
+	background: #0e7575;
+}
+.ft_sub {
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.ft_logo {
+    padding-bottom: 25px;
+}
+.ft_box {
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+.ft_box a,
+.ft_link li a {
+	color: #fff;
+	display: block;
+}
+.ft_box>a:hover {
+	color: #fef3e3;
+	text-decoration: none;
+}
+.ft_link li {
+	padding-bottom: 12px;
+}
+.ft_link li a {
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .3s ease-in;
+}
+.ft_map a:hover,
+.ftlist_social li a:hover {
+	color: #fef3e3;
+	text-decoration: none;
+}
+.ft_nav p a {
+	text-decoration: none;
+	transition: all .3s ease-in;
+}
+.ft_nav p a:hover,
+.ft_link li a:hover {
+	color: #fef3e3;
+	text-decoration: underline;
+}
+.ft_nav p .linelink:hover {
+	text-decoration: none;
+}
+.ft_nav p .linelink {
+	text-decoration: underline;
+}
+/*css for footer subpage*/
+.subpage_ftmenu {
+	display: flex;
+	flex-wrap: wrap;
+}

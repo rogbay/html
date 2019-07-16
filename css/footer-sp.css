@@ -1,0 +1,146 @@
+/*the screen for 480*/
+@media screen and (max-width: 480px) {
+
+}
+/*the screen for 767*/
+@media screen and (max-width: 767px) {
+	/*newletter*/
+	.newletter_wrap {
+		flex-wrap: wrap;
+		flex-direction: column;
+		padding: 0px 15px;
+	}
+	.newletter_ttl {
+		color: #f19048;
+		font-size: 2.4rem;
+		padding-bottom: 10px;
+	}
+	.newletter_field input[type="text"] {
+		width: calc(100% - 110px);
+	}
+	.newletter_field input[type="submit"] {
+		font-size: 1.4rem;
+		width: 110px;
+	}
+	/*css for footer menu*/
+	.footer_wrap {
+		padding: 30px 15px;
+		text-align: left;
+	}
+	.ft_sub {
+		flex-wrap: wrap;
+		padding-bottom: 25px;
+	}
+	.ft_sub .ft_box {
+		width: 100%;
+	}
+	.ft_sub .ft_box:first-child {
+		padding-bottom: 15px;
+	}
+	.ftlist_social li {
+		padding: 0px 10px;
+	}
+	.footer_wrap .ft_map,
+	.footer_wrap p {
+		text-align: left;
+	}
+	.ftlist_social {
+		padding: 15px 0px;
+	}
+	.ft_nav {
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-direction: column;
+		line-height: 1.35;
+	}
+	.ft_link li a {
+		line-height: 1.6;
+	}
+	.ft_map {
+		line-height: 1.35;
+		padding-bottom: 15px;
+	}
+	.ftlist_social li a {
+		font-size: 4rem;
+	}
+	.subpage_ftmenu {
+		padding-bottom: 25px;
+	}
+	.subpage_ftmenu li {
+		width: 100%;
+	}
+	.subpageft .ft_nav {
+		padding-bottom: 25px;
+	}
+}
+/*the screen for 768*/
+@media screen and (min-width: 768px) {
+	.newletter_ttl {
+		color: #f19048;
+		font-size: 3.6rem;
+	}
+	.newletter_form {
+	    padding-left: 28px;
+	}
+	.ft_sub .ft_box {
+		margin: 0px 15px;
+		/*max-width: 210px;*/
+		width: calc((100% - 90px) / 4);
+	}
+	.ft_sub .ft_box:nth-child(4n) {
+		margin-right: 0px;
+	}
+	.ft_sub .ft_box:nth-child(4n - 3) {
+		margin-left: 0px;
+	}
+	.ftlist_social li {
+		padding: 0px 30px;
+	}
+	.ftlist_social {
+		padding: 32px 0px;
+	}
+	.ftlist_social li a {
+		font-size: 4.2rem;
+	}
+	.ft_nav p {
+		padding: 0px 10px;
+		transition: all .3s ease-in;
+	}
+	.ft_map {
+		padding-bottom: 8px;
+		text-align: center;
+	}
+	.subpage_ftmenu {
+		justify-content: center;
+	}
+	.subpage_ftmenu li {
+		margin: 0px 15px;
+	}
+	.subpageft .ft_nav {
+		padding-bottom: 19px;
+	}
+	.subpageft .ft_logo {
+		text-align: center;
+	}
+}
+/*the screen for 1024*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.footer_wrap {
+		padding-bottom: 50px;
+	    padding-top: 40px;
+	}
+	.ft_sub {
+		padding-bottom: 70px;
+	}
+}
+/*the screen for 1025*/
+@media screen and (min-width: 1025px) {
+	.footer_wrap {
+		padding-bottom: 78px;
+	    padding-top: 60px;
+	}
+	.ft_sub {
+		padding-bottom: 94px;
+	}
+
+}

@@ -1,0 +1,129 @@
+.hd_info,
+nav {
+	background: #4c3f36;
+	color:  #fef3e3;
+}
+.hd_wrap {
+	align-items: center;
+	color: #fef3e3;
+	padding-bottom: 4.2px;
+	padding-top: 4.2px;
+}
+.hd_phone {
+	width: 380px;
+}
+.hd_phone_number .fas {
+	font-size: 1.8rem;
+	font-weight: bold;
+	padding-right: 5px;
+}
+.hd_phone_number span {
+	font-size: 1.2rem;
+}
+.hd_slogan {
+	text-transform: uppercase;
+}
+.hd_slogan .fas {
+	padding-left: 5px;
+}
+.hd_center {
+	background: #352c26;
+}
+.hd_center_wrap {
+	align-items: center;
+	color: #fff;
+	position: relative;
+}
+.hd_center_wrap::before {
+	background: url(../image/common/bg-header.png) center right no-repeat;
+	bottom: 0px;
+	content: "";
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.hd_logo {
+	align-items: center;
+	display: flex;
+	position: relative;
+	z-index: 1;
+}
+.logo_des {
+	padding-left: 10px;
+}
+.hd_center_box {
+	align-items: center;
+}
+.search_input {
+	position: relative;
+	width: 100%;
+}
+.search_input input {
+	background: #fff;
+	border-radius: 18.5px;
+	border: 1px solid #f7ead7;
+	height: 37px;
+	outline: none;
+	padding: 5px 42px 5px 20px;
+	width: 100%;
+}
+.search_input .search_btn {
+	background: rgba(0,0,0,0);
+	border: none;
+	color: #70635b;
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all .3s ease-in;
+}
+.hd_account {
+	position: relative;
+}
+.hd_account a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.hd_account_nav {
+	background: #0e7575;
+	border-radius: 5px;
+	color: #fff;
+	display: none;
+	right: 0px;
+	padding: 5px 15px;
+	position: absolute;
+	top: calc(100% + 5px);
+	z-index: 99999999;
+}
+.hd_account_nav li {
+	white-space: nowrap;
+}
+.hd_account_nav li a {
+	display: block;
+	font-size: 1.3rem;
+	padding: 8px 0px;
+}
+.lbllogin {
+    font-size: 1.3rem;
+}
+.hd_cart {
+	position: relative;
+}
+.cart_ico {
+	cursor: pointer;
+}
+.hd_cart .cart_count {
+	align-items: center;
+	background: #0e7575;
+	border-radius: 100%;
+	display: flex;
+	height: 26px;
+	justify-content: center;
+	position: absolute;
+	width: 26px;
+	top: -10px;
+	right: 0px;
+}
